@@ -10,7 +10,8 @@ _.extend(Marionette.TemplateCache.prototype, {
     // Returns a function that calls the dust.render method
     // IMPORTANT: Must preload templates into the DustJS cache
     // so that dust.render runs synchronously and the callback
-    // is called immediately.
+    // is called immediately. 
+    // TODO: Asynchronous rendering.
     compileTemplate: function(template){
         return function (data) {
             var html;
