@@ -7,10 +7,10 @@ define([
 ],
 function (_) {
 
-    // Render a template with data. The `template` parameter is
-    // passed to the `TemplateCache` object to retrieve the
-    // template function. Override this method to provide your own
-    // custom rendering and template handling for all of Marionette.
+    // IMPORTANT: Must preload templates into the DustJS cache
+    // so that dust.render the callback is called immediately.
+    // TODO: Incorporate into the Marionette asynchronous
+    // template library.
     Backbone.Marionette.Renderer.render = function (template, data) {
         var html;
         // Will run sync if templates pre-compiled into dust chache
