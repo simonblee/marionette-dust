@@ -1,0 +1,33 @@
+{
+  "name": "backbone.marionette.dust",
+  "version": "0.0.1",
+  "description": "Dust integration with Marionette.",
+  "keywords": [
+    "marionette",
+    "backbone",
+    "dust",
+    "templates"
+  ],
+  "homepage": "https://github.com:simonblee/marionette-dust",
+  "bugs": "https://github.com:simonblee/marionette-dust/issues",
+  "author": {
+    "name": "Simon Blee",
+    "email": "simonblee@ymail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:simonblee/marionette-dust.git"
+  },
+  "dependencies": {
+    "dustjs-linkedin": "1.2.3",
+    "marionette": "~1.0.2"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
