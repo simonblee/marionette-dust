@@ -1,6 +1,6 @@
 {
   "name": "backbone.marionette.dust",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "main": "backbone.marionette.dust.js",
   "dependencies": {
     "dustjs-linkedin": "1.2.3",
