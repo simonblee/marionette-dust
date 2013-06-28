@@ -1,9 +1,17 @@
 {
-  "name": "backbone.marionette.dust",
-  "version": "0.1.1",
-  "main": "src/backbone.marionette.dust.js",
-  "dependencies": {
-    "dustjs-linkedin": "1.2.3",
-    "marionette": "~1.0.2"
-  }
+    "name": "backbone.marionette.dust",
+    "version": "0.1.1",
+    "main": "src/backbone.marionette.dust.js",
+    "description": "Dust integration with Marionette.",
+    "keywords": [
+        "marionette",
+        "backbone",
+        "dust",
+        "templates"
+    ],
+    "author": "Simon Blee",
+    "dependencies": {
+        "dustjs-linkedin": "1.2.3",
+        "marionette": "~1.0.2"
+    }
 }

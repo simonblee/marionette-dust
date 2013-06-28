@@ -10,10 +10,7 @@
   ],
   "homepage": "https://github.com:simonblee/marionette-dust",
   "bugs": "https://github.com:simonblee/marionette-dust/issues",
-  "author": {
-    "name": "Simon Blee",
-    "email": "simonblee@ymail.com"
-  },
+  "author": "Simon Blee",
   "repository": {
     "type": "git",
     "url": "https://github.com:simonblee/marionette-dust.git"
