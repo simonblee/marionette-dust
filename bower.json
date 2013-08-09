@@ -1,7 +1,7 @@
 {
     "name": "backbone.marionette.dust",
     "version": "0.1.1",
-    "main": "src/backbone.marionette.dust.js",
+    "main": "./src/backbone.marionette.dust.js",
     "description": "Dust integration with Marionette.",
     "keywords": [
         "marionette",
@@ -9,5 +9,6 @@
         "dust",
         "templates"
     ],
-    "author": "Simon Blee"
+    "author": "Simon Blee",
+    "dependencies" : {}
 }
