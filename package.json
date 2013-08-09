@@ -1,6 +1,6 @@
 {
   "name": "backbone.marionette.dust",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Dust integration with Marionette.",
   "keywords": [
     "marionette",
@@ -15,10 +15,7 @@
     "type": "git",
     "url": "https://github.com:simonblee/marionette-dust.git"
   },
-  "dependencies": {
-    "dustjs-linkedin": "1.2.3",
-    "marionette": "~1.0.2"
-  },
+  "dependencies": {},
   "engines": {
     "node": ">=0.8.0"
   },
