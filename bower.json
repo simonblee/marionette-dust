@@ -9,9 +9,5 @@
         "dust",
         "templates"
     ],
-    "author": "Simon Blee",
-    "dependencies": {
-        "dustjs-linkedin": "1.2.3",
-        "marionette": "~1.0.2"
-    }
+    "author": "Simon Blee"
 }
