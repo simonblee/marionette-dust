@@ -11,7 +11,6 @@ loaded. Set the name of the compiled template as you template parameter in you v
 Use Marionette as normal and the plugin will handle the rest.
 
 ```
-#!javascript
 define([
   _,
   backbone,
