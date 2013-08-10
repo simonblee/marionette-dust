@@ -24,6 +24,7 @@ function (_, Backbone) {
   });
 });
 ```
+Make sure all modules defined above are set up correctly in you require config file.
 
 ## Compiling templates
 Templates must be compiled before using this plugin. This can be done in any way you 
