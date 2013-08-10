@@ -6,10 +6,30 @@ to allow dust rendering in the normal Marionette flow of execution. Bypasses
 Marionette TemplateCache as DustJS has its own cache.
 
 ## Usage
-Templates must be compiled and in the Dust cache. Pass the template name as the
-first argument and the data object as the second argument to the
-Marionette.Renderer.render function. The rendered markup will be returned.
+Require, using require js, the module in your client scripts after Marionette is 
+loaded. Set the name of the compiled template as you template parameter in you view. 
+Use Marionette as normal and the plugin will handle the rest.
 
-For use in a View, simply set the template property on the view to the template
-name. Marionette will call Marionette.Renderer.render and insert the markup into
-the DOM.
+```
+#!javascript
+define([
+  _,
+  backbone,
+  marionette,
+  dust,
+  dustMarionette
+],
+function (_, Backbone) {
+  return Backbone.Marionette.ItemView({
+    template: 'nameOfTemplateInDustCache'
+  });
+});
+```
+
+## Compiling templates
+Templates must be compiled before using this plugin. This can be done in any way you 
+choose, for example compiling all tempaltes at page load, or compiling the required 
+template just before you use them. 
+
+It is recommended that you pre-compile all templates into a single javascript file for
+production. This can be done easily with Grunt and the grunt-dustjs plugin.
