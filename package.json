@@ -1,6 +1,6 @@
 {
   "name": "backbone.marionette.dust",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Dust integration with Marionette.",
   "keywords": [
     "marionette",

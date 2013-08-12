@@ -1,10 +1,11 @@
 (function (root, factory) {
   if (typeof exports === 'object') {
     var backbone = require('backbone'),
+        marionette = require('marionette');
         dust = require('dust');
     module.exports = factory(backbone, dust);
   } else if (typeof define === 'function' && define.amd) {
-    define(['backbone'], factory);
+    define(['backbone', 'dust', 'marionette'], factory);
   }
 }(this, function (Backbone, dust) {
 
