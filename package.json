@@ -2,6 +2,7 @@
   "name": "backbone.marionette.dust",
   "version": "0.1.6",
   "description": "Dust integration with Marionette.",
+  "main": "src/amd/backbone.marionette.dust.js",
   "keywords": [
     "marionette",
     "backbone",
