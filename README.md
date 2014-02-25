@@ -41,3 +41,6 @@ template just before you use them.
 
 It is recommended that you pre-compile all templates into a single javascript file for
 production. This can be done easily with Grunt and the grunt-dustjs plugin.
+
+## License
+[MIT License](http://en.wikipedia.org/wiki/MIT_License)
