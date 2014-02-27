@@ -9,8 +9,12 @@ Marionette TemplateCache as DustJS has its own cache.
 
 ### AMD
 
-If using a module loader like Requirejs, require the module in your client scripts after Marionette is
-loaded. Set the name of the compiled template as you template parameter in you view.
+If using a module loader like Requirejs, simply define the three dependencies 
+'backbone', 'dust' and 'marionette' in your Requirejs config file and then define
+this module as a dependency after marionette during the initial application setup.
+
+The plugin requires you to compile all of your dust templates before use 
+Set the name of the compiled template as your template parameter in you view.
 Use Marionette as normal and the plugin will handle the rest.
 
 ```
