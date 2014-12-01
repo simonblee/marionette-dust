@@ -17,7 +17,7 @@ The plugin requires you to compile all of your dust templates before use
 Set the name of the compiled template as your template parameter in you view.
 Use Marionette as normal and the plugin will handle the rest.
 
-```
+```javascript
 define([
   _,
   backbone,
