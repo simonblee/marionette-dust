@@ -9,13 +9,9 @@ Marionette TemplateCache as DustJS has its own cache.
 
 ### AMD
 
-If using a module loader like Requirejs, simply define the three dependencies 
+If using a module loader like Requirejs, simply define the three dependencies
 'backbone', 'dust' and 'marionette' in your Requirejs config file and then define
 this module as a dependency after marionette during the initial application setup.
-
-The plugin requires you to compile all of your dust templates before use 
-Set the name of the compiled template as your template parameter in you view.
-Use Marionette as normal and the plugin will handle the rest.
 
 ```javascript
 define([
@@ -31,16 +27,21 @@ function (_, Backbone) {
   });
 });
 ```
-Make sure all modules defined above are set up correctly in you require config file. Make sure you use
-the AMD version of the plugin.
+
+Make sure all modules defined above are set up correctly in you require config file.
+Make sure you use the module version of the plugin.
+
+### CommonJS
+If using a common JS loader, simply `require(backbone.marionette.dust)` and you
+should be good to go.
 
 ### Non-AMD
-Simply add the non-amd version to your project after Marionette. Use the template in the same way as the
-AMD case.
+Simply add the non-AMD version to your project after Marionette. Use the template in
+the same way as the AMD case.
 
 ## Compiling templates
-Templates must be compiled before using this plugin. This can be done in any way you
-choose, for example compiling all tempaltes at page load, or compiling the required
+Templates MUST be compiled before using this plugin. This can be done in any way you
+choose, for example compiling all templates at page load, or compiling the required
 template just before you use them.
 
 It is recommended that you pre-compile all templates into a single javascript file for
