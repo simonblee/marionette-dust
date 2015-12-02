@@ -1,13 +1,13 @@
 (function (root, factory) {
-  if (typeof exports === 'object') {
-    var backbone = require('backbone'),
-        marionette = require('backbone.marionette');
-        dust = require('dustjs-helpers');
+    if (typeof exports === 'object') {
+        var backbone = require('backbone'),
+            marionette = require('backbone.marionette');
+            dust = require('dustjs-helpers');
 
-    module.exports = factory(backbone, dust);
-  } else if (typeof define === 'function' && define.amd) {
-    define(['backbone', 'dust', 'marionette'], factory);
-  }
+        module.exports = factory(backbone, dust);
+    } else if (typeof define === 'function' && define.amd) {
+        define(['backbone', 'dust', 'marionette'], factory);
+    }
 }(this, function (Backbone, dust) {
 
     Backbone.Marionette.Renderer.render = function (template, data) {
